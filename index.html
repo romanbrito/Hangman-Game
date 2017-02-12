@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- font awesome styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HangmanGame</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>90's Band Hangman Game</h1>
+            <h2>Press any key to get started</h2>
+        </div>
+    </div>
+    <div class="carousel-inner" role="listbox">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-6">
+                    <h3 id="Artist"></h3>
+                    <p>Wins:<span id="Wins"></span> </p>
+                    <p>Current Word <span id="Current"></span> </p>
+                    <p>Number of Guesses Remaining<span id="GuessLeft"></span> </p>
+                    <p>Letters Already Guessed <span id="GuessFar"> </span> </p>
+                </div>
+                <div class="col-md-6">
+                    <img id="bandImg" src="assets/images/nirvana.jpg" alt="90s Bands">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+</body>
+
+</html>
